@@ -54,7 +54,7 @@ while running:
     screen.fill((0, 0, 0))
 
     for segment in snake:
-        pygame.draw.circle(screen, "red", segment['starting_point'], 15)
+        pygame.draw.circle(screen, "green", segment['starting_point'], 15)
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w]:
